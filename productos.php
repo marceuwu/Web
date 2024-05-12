@@ -321,12 +321,10 @@
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-                        <div class="card text-center card-lift shadow">
+                        <div class="card text-center card-lift shadow h-100">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
-                                    <img src="/assets/images/team/team-img-4.jpg"
-                                        alt="icono"
-                                        class="avatar avatar-xxl rounded-circle" />
+                                    <img class="rounded" src="./img/img1.png" width="200" alt="" srcset="">
                                 </figure>
 
                                 <h5 class="mb-1">Cálculo Adaptable de Nómina</h5>
@@ -338,9 +336,7 @@
                         <div class="card text-center card-lift shadow h-100">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
-                                    <img src="../assets/images/avatar/avatar-3.jpg"
-                                        alt="icono"
-                                        class="avatar avatar-xxl rounded-circle" />
+                                    <img class="rounded" src="./img/img2.png" width="200" alt="" srcset="">
                                 </figure>
 
                                 <h5 class="mb-1">Control y Administración de Beneficios</h5>
@@ -352,9 +348,7 @@
                         <div class="card text-center card-lift shadow h-100">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
-                                    <img src="../assets/images/avatar/avatar-1.jpg"
-                                        alt="icono"
-                                        class="avatar avatar-xxl rounded-circle" />
+                                    <img class="rounded" src="./img/img2.png" width="200" alt="" srcset="">
                                 </figure>
 
                                 <h5 class="mb-1">Automatización de Procesos</h5>
@@ -367,9 +361,7 @@
                         <div class="card text-center card-lift shadow h-100">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
-                                    <img src="../assets/images/avatar/avatar-2.jpg"
-                                        alt="icono"
-                                        class="avatar avatar-xxl rounded-circle" />
+                                    <img class="rounded" src="./img/img3.png" width="200" alt="" srcset="">
                                 </figure>
 
                                 <h5 class="mb-1">Reportes Personalizables</h5>
@@ -381,9 +373,7 @@
                         <div class="card text-center card-lift shadow h-100">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
-                                    <img src="../assets/images/avatar/avatar-6.jpg"
-                                        alt="icono"
-                                        class="avatar avatar-xxl rounded-circle" />
+                                    <img class="rounded" src="./img/img4.png" width="200" alt="" srcset="">
                                 </figure>
 
                                 <h5 class="mb-1">Auditorías de Precisión</h5>
@@ -395,9 +385,7 @@
                         <div class="card text-center card-lift shadow h-100">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
-                                    <img src="../assets/images/avatar/avatar-4.jpg"
-                                        alt="icono"
-                                        class="avatar avatar-xxl rounded-circle" />
+                                    <img class="rounded" src="./img/img5.png" width="200" alt="" srcset="">
                                 </figure>
                                 <h5 class="mb-1">Integración y Exportación</h5>
                                 <small>Configuración de pólizas contables para integración con sistemas contables del mercado, generación de movimientos para importación al sistema SUA, etc.</small>
@@ -408,9 +396,7 @@
                         <div class="card text-center card-lift shadow h-100">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
-                                    <img src="../assets/images/avatar/avatar-7.jpg"
-                                        alt="icono"
-                                        class="avatar avatar-xxl rounded-circle" />
+                                    <img class="rounded" src="./img/img6.png" width="200" alt="" srcset="">
                                 </figure>
 
                                 <h5 class="mb-1">Cumplimiento Legal</h5>
@@ -421,8 +407,10 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="card text-center card-lift shadow h-100">
                             <div class="card-body py-5 ">
-                                <i class="bx bx-bar-chart-alt naranja"></i>
-
+                                <figure class="mb-4">
+                                    <img class="rounded" src="./img/img7.png" width="200" alt="" srcset="">
+                                </figure>
+                                
                                 <h5 class="mb-1">Gestión Multiempresa</h5>
                                 <small>Manejo eficiente de nóminas para múltiples empresas. </small>
                             </div>
@@ -441,6 +429,7 @@
                 <div class="contenido-caja">
                     <div class="caja">
                         <i class="bx bx-bar-chart-alt"></i>
+                        <img class="img-thumbnail rounded" src="./img/img6.png" width="50" alt="" srcset="">
                         <h2>Marketing</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus beatae aspernatur soluta ipsam explicabo eius?

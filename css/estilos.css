@@ -136,7 +136,7 @@ footer{
     background-image: url("../img/fondo1.png");
     height: 500px;
 }
-
+/*
 .Nomina{
     margin:0;
     padding: 0;
@@ -157,7 +157,7 @@ footer{
     font-weight: 500;
 }
 .contenido-caja{
-    display: flex; /* Corregido el error de escritura */
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 1000px;
@@ -165,7 +165,6 @@ footer{
 }
 .caja{
     min-height: 220px;
-    width: 320px; /* Agregadas las unidades de medida */
     padding: 30px;
     border-radius: 5px;
     display: flex;
@@ -174,11 +173,11 @@ footer{
     flex-direction: column;
     background: #fff;
     margin: 10px 4px;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2); /* Corregido el valor de opx a 0px */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2); 
 }
 
 .card-lift:hover {
     background: linear-gradient(45deg, rgba(255, 28, 8, 0.8) 0%, rgba(255, 28, 8, 0) 100%), url('../img/img2.png');
     background-size: cover;
-}
+}*/
 

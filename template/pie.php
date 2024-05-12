@@ -17,46 +17,27 @@
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax-video.min.js"></script>
-
     <script>
-        // Define un array con las URLs de las imágenes que quieres usar
-        const images = [
-            './img/img1.png',
-            './img/img2.png',
-            './img/img3.png',
-            './img/img4.png',
-            './img/img5.png',
-            './img/img6.png',
-            './img/img7.png',
-            './img/img8.png'
-        ];
+    // Selecciona todas las tarjetas
+    const cards = document.querySelectorAll('.card-lift');
 
-        // Selecciona todas las tarjetas
-        const cards = document.querySelectorAll('.card-lift');
-
-        // Itera sobre cada tarjeta
-        cards.forEach((card, index) => {
-            // Añade un event listener para el evento mouseenter (hover)
-            card.addEventListener('mouseenter', () => {
-                // Cambia el fondo de la tarjeta al hacer hover usando la imagen correspondiente
-                card.style.background = `linear-gradient(45deg, rgba(155, 89, 182, 0.8) 0%, rgba(155, 89, 182, 0) 100%), url("${images[index]}")`;
-                card.style.backgroundSize = 'cover';
-                card.style.color = '#fff';
-                const title = card.querySelector('h5');
-                title.style.fontWeight = 'bold';
-            });
-
-            // Añade un event listener para el evento mouseleave (cuando el cursor deja la tarjeta)
-            card.addEventListener('mouseleave', () => {
-                // Restaura el fondo original de la tarjeta al quitar el hover
-                card.style.background = 'none'; // O el color de fondo que desees
-                card.style.color = '#000';
-                const title = card.querySelector('h5');
-                title.style.fontWeight = 'normal';
-               // Restaura el tamaño de fuente original
-            });
+    // Itera sobre cada tarjeta
+    cards.forEach((card, index) => {
+        // Añade un event listener para el evento mouseenter (hover)
+        card.addEventListener('mouseenter', () => {
+            // Cambia el fondo de la tarjeta al hacer hover usando un color morado
+            card.style.background = `linear-gradient(45deg, rgba(155, 89, 182, 0.8) 0%, rgba(155, 89, 182, 0) 100%)`;
+            card.style.backgroundSize = 'cover';
         });
-    </script>
+
+        // Añade un event listener para el evento mouseleave (cuando el cursor deja la tarjeta)
+        card.addEventListener('mouseleave', () => {
+            // Restaura el fondo original de la tarjeta al quitar el hover
+            card.style.background = 'none'; // O el color de fondo que desees
+        });
+    });
+</script>
+
 
 
 </body>

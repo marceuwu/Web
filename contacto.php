@@ -24,7 +24,7 @@
                             <div class="col-md-7 col-12">
                                 <div class="card shadow-sm">
                                     <div class="card-body">
-                                        <form class="row g-3 needs-validation"
+                                        <form action="config/registro.php" method="post" class="row g-3 needs-validation"
                                             novalidate>
                                             <div class="col-lg-6 col-md-12">
                                                 <label for="contactFirstNameInput"
@@ -96,8 +96,7 @@
                                                     enter a message.</div>
                                             </div>
                                             <div class="d-grid">
-                                                <button class="btn btn-primary"
-                                                    type="submit">Enviar</button>
+                                                <input type="submit" value="Enviar">
                                             </div>
                                         </form>
                                     </div>
