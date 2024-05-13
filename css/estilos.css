@@ -136,6 +136,68 @@ footer{
     background-image: url("../img/fondo1.png");
     height: 500px;
 }
+
+.bg-custom-purple {
+    background-color: #9756b6;
+}
+
+/* Estilo personalizado para el botón */
+.custom-button {
+    background-color: #b09ad1; /* Color del botón */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Cambiar el color del botón cuando se pasa el mouse sobre él */
+.custom-button:hover {
+    background-color: #8e73a4; /* Color del botón al pasar el mouse */
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+/* Define una animación llamada "floating" usando keyframes */
+@keyframes floating {
+    /* Define el estado inicial de la animación */
+    0% {
+        transform: translateY(0); /* No hay desplazamiento vertical */
+    }
+    /* Define el estado intermedio de la animación */
+    50% {
+        transform: translateY(-8px); /* Desplaza hacia arriba 8px */
+    }
+    /* Define el estado final de la animación */
+    100% {
+        transform: translateY(0); /* Vuelve a la posición inicial */
+    }
+}
+
+/* Aplica la animación "floating" a los elementos con clase "icon-lg" */
+.icon-lg {
+    animation: floating 3s infinite ease-in-out; /* La animación dura 3 segundos, se repite infinitamente, y tiene una aceleración suave */
+}
+
+/* Define una regla CSS para las imágenes que agranda la imagen cuando el mouse está sobre ella */
+.img-fluid:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border-color: white;
+}
+
 /*
 .Nomina{
     margin:0;

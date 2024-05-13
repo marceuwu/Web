@@ -62,7 +62,7 @@
                     <div
                         class="col-md-4 border-end-md border-bottom border-bottom-md-0">
                         <div class="text-center py-lg-5 p-4">
-                            <div class="mb-4">
+                            <div class="mb-4 icon-lg">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32"
                                     height="32" fill="currentColor"
                                     class="bi bi-people-fill text-primary"
@@ -80,7 +80,7 @@
                     <div
                         class="col-md-4 border-end-md border-bottom border-bottom-md-0">
                         <div class="text-center py-lg-5 p-4">
-                            <div class="mb-4">
+                            <div class="mb-4 icon-lg">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32"
                                     height="32" fill="currentColor"
                                     class="bi bi-trophy-fill text-primary"
@@ -97,7 +97,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="text-center py-lg-5 p-4">
-                            <div class="mb-4">
+                            <div class="mb-4 icon-lg">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32"
                                     height="32" fill="currentColor"
                                     class="bi bi-stars text-primary"

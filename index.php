@@ -13,41 +13,73 @@
                                 <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
                                 
                             </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
                                     <img src="img/fondo1.png" class="d-block w-100" alt="">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>¡Nuestra oferta!</h5>
-                                        <p>Gestión de recursos humanos</p>
+                                    <div class="carousel-caption d-none d-md-block text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 10px;">
+                                        <div class="container "> 
+                                            <div class="row justify-content-center">
+                                                <div class=" col-12">
+                                                    <br/>
+                                                    <div class="mb-4 text-white">
+                                                        <h1 class="mb-3 mt-3 display-4 text-white-stable font-weight-bold" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); font-size: 3vw; min-font-size: 14px;">Gestión de recursos humanos</h1>
+                                                    </div>
+                                                    <a href="#!" class="btn btn-outline-primary">Nuestra oferta</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="carousel-item">
+                                    <img src="img/img9.png" class="d-block w-100" alt="">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div class="container "> 
+                                            <div class="row">
+                                                <div class="col-xl-5 col-lg-7 col-12" data-cue="zoomIn">
+                                                    <div class="text-center text-lg-start">
+                                                        <div class="mb-4 text-white">
+                                                            <h1 class="mb-3 mt-3 display-3 text-white-stable font-weight-bold" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Gestione sus nóminas con Soprade</h1>
+                                                        </div>
+                                                        <a href="#!" class="btn btn-outline-primary">Ver más</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="img/img10.png" class="d-block w-100" alt="">
+                                    <div class="carousel-caption d-none d-md-block text-center" style="position: absolute; background-color: rgba(0, 0, 0, 0.5);">
+                                        <h5 style="color: white; font-size: 2rem; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Controle los tiempos de presencia y ausencia de sus empleados</h5>
+                                    </div>
+                                </div>
+
+
                                 <div class="carousel-item">
                                     <img src="img/img1.png" class="d-block w-100" alt="">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5>Gestione sus nóminas con</h5>
-                                        <p>Soprade</p>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div>
+                                                    <div class="mb-4 text-white">
+                                                        <h1 class="mb-3 mt-3 display-3 text-white-stable font-weight-bold" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Asigne roles a sus empleados desde nuestros portales</h1>
+                                                    </div>
+                                                    <a href="#!" class="btn btn-outline-primary">Ver más</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+
                                 <div class="carousel-item">
-                                    <img src="img/img2.png" class="d-block w-100" alt="">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Controle los tiempos de presencia<br> y ausencia de sus empleados</h5>
+                                    <img src="img/img11.png" class="d-block w-100" alt="">
+                                    <div class="carousel-caption d-none d-md-block text-center" style="position: absolute; background-color: rgba(0, 0, 0, 0.5);">
+                                        <h5 style="color: white; font-size: 2rem; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Soprade</h5>
+                                        <p style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Conócenos</p>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src="img/img1.png" class="d-block w-100" alt="">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Asigne roles a sus empleados</h5>
-                                        <p>desde nuestros portales</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/img1.png" class="d-block w-100" alt="">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Soprade</h5>
-                                        <p>Conocenos</p>
-                                    </div>
-                                </div>
+
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -270,5 +302,6 @@
         </section>
         <!--Servicios end-->
         <script src="./js/bootstrap.bundle.min.js"></script>
+        
     </main>
 <?php include('template/pie.php'); ?>

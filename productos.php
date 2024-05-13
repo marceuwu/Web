@@ -321,7 +321,7 @@
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-                        <div class="card text-center card-lift shadow h-100">
+                        <div class="card text-center card-lift shadow h-100 special-card">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
                                     <img class="rounded" src="./img/img1.png" width="200" alt="" srcset="">
@@ -333,7 +333,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="card text-center card-lift shadow h-100">
+                        <div class="card text-center card-lift shadow h-100 special-card">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
                                     <img class="rounded" src="./img/img2.png" width="200" alt="" srcset="">
@@ -345,7 +345,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="card text-center card-lift shadow h-100">
+                        <div class="card text-center card-lift shadow h-100 special-card">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
                                     <img class="rounded" src="./img/img2.png" width="200" alt="" srcset="">
@@ -358,7 +358,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="card text-center card-lift shadow h-100">
+                        <div class="card text-center card-lift shadow h-100 special-card">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
                                     <img class="rounded" src="./img/img3.png" width="200" alt="" srcset="">
@@ -370,7 +370,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="card text-center card-lift shadow h-100">
+                        <div class="card text-center card-lift shadow h-100 special-card">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
                                     <img class="rounded" src="./img/img4.png" width="200" alt="" srcset="">
@@ -382,7 +382,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="card text-center card-lift shadow h-100">
+                        <div class="card text-center card-lift shadow h-100 special-card">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
                                     <img class="rounded" src="./img/img5.png" width="200" alt="" srcset="">
@@ -393,7 +393,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="card text-center card-lift shadow h-100">
+                        <div class="card text-center card-lift shadow h-100 special-card">
                             <div class="card-body py-5">
                                 <figure class="mb-4">
                                     <img class="rounded" src="./img/img6.png" width="200" alt="" srcset="">
@@ -405,7 +405,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="card text-center card-lift shadow h-100">
+                        <div class="card text-center card-lift shadow h-100 special-card">
                             <div class="card-body py-5 ">
                                 <figure class="mb-4">
                                     <img class="rounded" src="./img/img7.png" width="200" alt="" srcset="">
@@ -420,51 +420,5 @@
             </div>
         </section>
         <!--Gestion de nómina fin-->
-
-        <section class="Nomina">
-            <div class="wrapper">
-                <h1>Our Services</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ex similique! 
-                Quis est aperiam exercitationem!</p>
-                <div class="contenido-caja">
-                    <div class="caja">
-                        <i class="bx bx-bar-chart-alt"></i>
-                        <img class="img-thumbnail rounded" src="./img/img6.png" width="50" alt="" srcset="">
-                        <h2>Marketing</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus beatae aspernatur soluta ipsam explicabo eius?
-                        </p>
-                    </div>
-                    <div class="caja">
-                        <i class="bx bx-laptop bx-md"></i>
-                        <h2>Web Services</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus beatae aspernatur soluta ipsam explicabo eius?
-                        </p>
-                    </div>
-                    <div class="caja">
-                        <i class="bx bx-line-chart bx-md"></i>
-                        <h2>24/7 Call center</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus beatae aspernatur soluta ipsam explicabo eius?
-                        </p>
-                    </div>
-                    <div class="caja">
-                        <i class="bx bx-bar-chart-alt bx-md"></i>
-                        <h2>Social Media</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus beatae aspernatur soluta ipsam explicabo eius?
-                        </p>
-                    </div>
-                    <div class="caja">
-                        <i class="bx bx-bar-paint bx-md"></i>
-                        <h2>Social Media</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus beatae aspernatur soluta ipsam explicabo eius?
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 <?php include('template/pie.php'); ?>
